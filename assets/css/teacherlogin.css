@@ -9,14 +9,13 @@ body {
     display:flex;
     justify-content:center;
     align-items: center; 
-    height: 100vh; 
+    height: 99vh; 
 
 }
 
-.signup-box {
+.teacherLogin-box {
     background-color: #ffffff;
-    padding: 20px 50px 40px 50px;
-    float:right;
+    padding: 40px;
     text-align: center;
     border-radius: 20px;
     box-shadow: #2022259f insets;
@@ -24,20 +23,29 @@ body {
 
 input {
     outline: none;
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .input-boxes {
     border: 1px;
-    border-radius: 20px;
-    background-color: #f0f0f0;
-    width: 500px;
-    text-align: center;
-    padding: 10px;
+    border-radius: 5px;
 }
 
-#request-button {
-    background-color: rgb(12, 0, 125);
+#teacherLogin-button {
+    background-color: rgb(228, 16, 1);
+    color: white;
+    font-family: Impact;
+    font-size: 30px;
+    padding: 5px;
+    height: 50px;
+    width: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#teacherLogin-button:active {
+    background-color: rgb(128, 0, 0);
     color: white;
     font-family: Impact;
     font-size: 30px;

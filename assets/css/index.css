@@ -1,3 +1,5 @@
+/*THIS IS CSS FOR STUDENTS & TEACHER LOGIN */
+
 body {
     background: #0051ffbe;
     font-family: 'Exo', sans-serif;
@@ -13,6 +15,8 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+
+/* CSS LOGIN FOR STUDENTS */
 .studLogin-box {
     background-color: #ffffff;
     padding: 40px;
@@ -44,3 +48,41 @@ input {
     border-radius: 10px;
     cursor: pointer;
 }
+
+
+
+/* CSS FOR TEACHER LOGIN*/
+
+.teacherLogin-box {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: #2022259f insets;
+}
+
+#teacherLogin-button {
+    background-color: rgb(228, 16, 1);
+    color: white;
+    font-family: Impact;
+    font-size: 30px;
+    padding: 5px;
+    height: 50px;
+    width: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#teacherLogin-button:active {
+    background-color: rgb(128, 0, 0);
+    color: white;
+    font-family: Impact;
+    font-size: 30px;
+    padding: 5px;
+    height: 50px;
+    width: 70%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+} 
